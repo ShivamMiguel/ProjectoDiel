@@ -48,6 +48,7 @@ function Tarefas() {
             placeholder="Titulo"
             value={titulo}
             onChange={handleTitulo}
+            required
           />
           <input
             className="text-black border-b border-black bg-slate-300 w-[500px]"
@@ -55,6 +56,7 @@ function Tarefas() {
             placeholder="Descricão"
             value={descricao}
             onChange={handleDescricao}
+            required
           />
         </div>
 
@@ -65,6 +67,7 @@ function Tarefas() {
             type="Date"
             value={entradaDate}
             onChange={handleEntrada}
+            required
           />
           <fieldset>data de entrega:</fieldset>
           <input
@@ -72,6 +75,7 @@ function Tarefas() {
             type="Date"
             value={saidaDate}
             onChange={handleSaida}
+            required
           />
         </div>
 
