@@ -5,7 +5,7 @@ Teste para processo selectivo da Diel Energia
 
 #Backend backend criado com o node js, typescript e express.js para Rodar o programa instalar o npm com o comando: npm install comando para execucão do projecto: npm run dev
 
-Dependencias: express.js para criacão facil da app e o uso metodos http http-status-codes para a facil integracão do status das requisicões. Banco de Dados PostgreSQL typescript para ajudar com a tipagem da aplicacão.
+Dependencias: express.js para criacão facil da app e o uso metodos http http-status-codes para a facil integracão do status das requisicões. Banco de Dados PostgreSQL typescript para ajudar com a tipagem da aplicacão, temos tambem a deoendencia cors para que o Frontend acesse o Back sem problemas de permissão.
 
 #Frontend O projecto foi criado com o @vite, react js, Typescript e axios.
 
